@@ -1,0 +1,26 @@
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Stardust</title>
+</head>
+<body>
+  <div class="container">
+    <h1>We are stardust.</h1>
+    <div>
+      <b>Enter a date:</b>
+      <input type="date" id="myDate">
+      <button type="button" onclick="myFunction()">View Picture</button> 
+    </div>
+    <div>
+      <img id="apod_img_id"/>
+      <iframe id="apod_vid_id" type="text/html" width="640" height="385" frameborder="0"></iframe>
+      <p id="copyright"></p>
+    </div>
+    <div id="popup">
+      <h3 id="apod_title"></h3>
+      <p id="apod_explaination"></p>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
